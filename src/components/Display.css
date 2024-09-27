@@ -1,0 +1,35 @@
+.display {
+    background-color: #111;
+    color: #fff;
+    font-size: 1.5rem;
+    text-align: right;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  .display input {
+    width: 100%;
+    background-color: #111;
+    color: white;
+    border: none;
+    font-size: 2rem;
+    text-align: right;
+    padding: 10px;
+  }
+  
+  .display input:focus {
+    outline: none;
+  }
+  
+  @media (max-width: 600px) {
+    .display {
+      font-size: 1.2rem; /* Adjust font size for mobile */
+    }
+  
+    .display input {
+      font-size: 1.6rem; /* Adjust input font size for mobile */
+    }
+  }
+  

@@ -1,0 +1,23 @@
+/* App.css */
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full height of the viewport */
+  width: 100vw;  /* Full width of the viewport */
+  margin: 0; /* Remove default margin */
+  background-color: #f0f0f0; /* Fallback background color */
+  background-image: url('https://imgs.search.brave.com/uTY2mezDct0Pi1hrua3spiJtRFakimc_Qkcl8AAh3pA/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvNTE4/OTA1MjY0L3ZlY3Rv/ci9ibGFja2JvYXJk/LmpwZz9zPTYxMng2/MTImdz0wJms9MjAm/Yz1RMjlyYzVNb0Ny/UkFraW1XT3d0SDRG/LVdzZmJJbUI3SE5p/MnlyemRCUTdVPQ'); /* Placeholder URL */
+  background-size: cover; /* Cover the entire area */
+  
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  overflow: hidden; /* Prevent scrollbars */
+}
+
+/* Optional: Media query for better control on smaller screens */
+@media (max-width: 768px) {
+  .App {
+    background-image: url(''); /* Optional mobile-specific background */
+  }
+}
